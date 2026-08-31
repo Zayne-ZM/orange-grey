@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Management Team | OrangeGrey Consulting</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Management Team CSS -->
+    <style>
+        /* ================================
+           MANAGEMENT TEAM
+        ================================= */
+
+        .team-card {
+            overflow: hidden;
+        }
+
+        .team-image {
+            width: 100%;
+            height: 350px;
+            margin-bottom: 25px;
+            overflow: hidden;
+            background: #eee;
+            border-radius: 4px;
+        }
+
+        .team-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center top;
+            display: block;
+            transition: transform 0.4s ease;
+        }
+
+        .team-card:hover .team-image img {
+            transform: scale(1.04);
+        }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            .team-image {
+                height: 320px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="header">
+    <div class="container nav">
+
+        <a class="brand" href="index.html">
+            <img src="assets/logo.png" alt="OrangeGrey Consulting Limited">
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="approach.html">Our Approach</a>
+            <a class="active" href="management-team.html">Management Team</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a class="nav-cta" href="contact.html">Get in Touch ↗</a>
+
+        <button 
+            class="menu-btn" 
+            id="menuBtn" 
+            aria-label="Menu" 
+            aria-expanded="false">
+            ☰
+        </button>
+
+    </div>
+</header>
+
+
+<main>
+
+    <!-- HERO -->
+    <section class="page-hero">
+        <div class="container reveal">
+
+            <div class="eyebrow">
+                OUR <b>MANAGEMENT TEAM</b>
+            </div>
+
+            <h1>
+                Experience that shapes<br>
+                <span>confident decisions.</span>
+            </h1>
+
+            <p>
+                Our team combines deep local market knowledge with international
+                expertise and extensive experience across banking, finance,
+                corporate development and strategic management.
+            </p>
+
+        </div>
+    </section>
+
+
+    <!-- MANAGEMENT TEAM -->
+    <section class="section">
+        <div class="container service-grid">
+
+            <!-- EPHRAIM CHINDIMA -->
+            <article class="service-card reveal team-card">
+
+                <div class="team-image">
+                    <img 
+                        src="assets/ephraim.jpg" 
+                        alt="Ephraim Chindima">
+                </div>
+
+                <h3>Ephraim Chindima</h3>
+
+                <span>
+                    Managing Partner
+                </span>
+
+                <p>
+                    Ephraim Chindima is a seasoned Banker with extensive experience
+                    in financial risk management, corporate finance, and strategic
+                    planning from more than 18 years worth of experience working in
+                    the banking &amp; finance sector. Ephraim has successfully
+                    managed credit portfolio’s in excess of US$ 20 million.
+                    Prior to founding OrangeGrey, Ephraim held different senior
+                    roles including Chief Credit Officer at multiple financial
+                    institutions in Zambia.
+                </p>
+
+            </article>
+
+
+            <!-- DECENT CHISAMU -->
+            <article class="service-card reveal team-card">
+
+                <div class="team-image">
+                    <img 
+                        src="assets/decent.jpg" 
+                        alt="Decent Chisamu">
+                </div>
+
+                <h3>Decent Chisamu</h3>
+
+                <span>
+                    Senior Partner - Capital Markets &amp; Investments
+                </span>
+
+                <p>
+                    Decent Chisamu is an accomplished finance professional and
+                    holds a Masters Degree in Development Finance. With more than
+                    20 years experience working with the largest institutional
+                    investors in Africa including DBSA and TDB, Decent has led
+                    project finance, appraisals and investment structuring
+                    initiatives for high impact projects across continent with a
+                    combined value in excess of US$ 200 million.
+                </p>
+
+            </article>
+
+        </div>
+    </section>
+
+
+    <!-- EXPERIENCE -->
+    <section class="section">
+
+        <div class="container panel reveal">
+
+            <div>
+
+                <div class="mini-title">
+                    OUR <b>EXPERIENCE</b>
+                </div>
+
+                <h2>
+                    More than <span>$8Mn</span> in value created.
+                </h2>
+
+            </div>
+
+            <div>
+
+                <p>
+                    Our Partners have created more than $8Mn in value across
+                    various sectors over their combined careers spanning +50 years
+                    in banking, finance, corporate development, and strategy.
+                </p>
+
+                <p>
+                    We bring this experience to Energy, Agriculture, Financial,
+                    Manufacturing, and Mining sectors in Zambia.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="container footer-inner">
+
+        <img 
+            src="assets/logo.png" 
+            alt="OrangeGrey Consulting Limited">
+
+        <p>
+            Insight • Innovation • Impact
+        </p>
+
+        <span>
+            © <span id="year"></span> OrangeGrey Consulting Limited ||
+            Designed by
+            <a href="https://wa.me/260962449126">
+                Zayne
+            </a>
+        </span>
+
+    </div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
